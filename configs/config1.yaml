@@ -1,0 +1,7 @@
+port: 9080
+heartbeat_interval: 3s
+leader_heartbeat_timeout: 4s
+node: localhost:9080
+peers:
+  - localhost:9081
+  - localhost:9082
